@@ -1,0 +1,273 @@
+/*code css from differnet source*/
+/* Set a style for all buttons */
+button {
+    background-color:#F7F7F7;
+    border-radius:13px;
+    color:gray;
+    display:inline-block;
+    font-family:'Montserrat','Arial', 'Geneva', sans-serif;
+    font-size:17px;
+    font-weight:700;
+    line-height:30px;
+    text-align:center;
+    text-decoration:none;
+    width:250px;
+}
+button {
+    background-color:#e1beb7;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+button:hover {
+    opacity:1;
+}
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: gray;
+}
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+}
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+.content {
+    text-align: center;
+    font-family:serif;
+    color: gray;
+    padding-top: 10em;
+}
+.commentForm {
+    padding: 16px;
+}
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.divs{
+    font-Size:20px;
+    font-weight:bolder;
+    font-family:times;
+    color:FireBrick;
+}
+.des{
+    color:Brown;
+    font-Size:30px;
+    font-weight:bolder;
+    font-family:times;
+}
+body{
+    background-image:url("back1.jpg");
+}
+@media print {
+    body {
+        background-color: white;
+   }
+}
+h2 {
+    color:Darksalmon;
+    text-align: center;
+    font-size:50px;
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    color:Brown;
+    font-Size:30px;
+    font-weight:bolder;
+    font-family:times;
+}
+.home {
+    position: fixed;
+   /* Make it stick/fixed */
+    z-index: 500;
+    background-color: white;
+    top:0;
+   /* Stay on top */
+    right:0;
+    width: 100%;
+   /* Full width */
+    text-align:left;
+    overflow: hidden;
+}
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+.image {
+    display: block;
+    width: 50%;
+    height: 300px;
+    border-radius: 16px;
+}
+img {
+   vertical-align: middle;
+}
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.inputForm{
+    padding-right: 584px;
+    padding-top: 20px;
+}
+
+/*css for sing up*/
+/* Full-width input fields */
+input[type=text], input[type=password] {
+width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+    box-shadow:0 0 8px 0 ;
+
+}
+/* The Modal Style */
+.modal {
+    display: none;
+   /* Hidden by default */
+    position: fixed;
+   /* Stay in place */
+    z-index: 1;
+   /* Sit on top */
+    left: 0;
+    top: 0;
+    overflow: auto;
+   /* Enable scroll if needed */
+    padding-top: 50px;
+}
+.mySlides1, .mySlides2 {
+   display: none
+}
+/*css for sing up*/
+/* The Modal (background) */
+.modall {
+    display: none;
+   /* Hidden by default */
+    position: fixed;
+   /* Stay in place */
+    z-index: 1;
+   /* Sit on top */
+    left: 0;
+    top: 0;
+    overflow: auto;
+   /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+}
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+   /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+}
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+        width: 100%;
+   }
+}
+.modall {
+   font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    color: pink;
+   /* search icon color */
+}
+/* Position the "next button" to the right */
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+p {
+    color:Darksalmon;
+    font-size:30px;
+    display: flex;
+    flex-direction: column;
+}
+.pho-content {
+   /* padding top for the img */
+    text-align: center;
+    font-family:serif;
+    padding-top: 8em;
+}
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+.prides{
+    background-color:Navajowhite;
+    font-Size:40px;
+    font-weight:bolder;
+    font-family:times;
+    text-align: center;
+}
+.prev{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.topnav{
+    overflow: hidden;
+    background-color: #fff;
+    width: 50%;
+}
+.topnav a {
+    float: right;
+    color: #cccccc ;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav .active {
+    background-color: #e1beb7;
+    color: white;
+}
